@@ -1,4 +1,4 @@
-BDEPEND=acct-user/overseerr acct-group/overseerr media-libs/vips net-libs/nodejs sys-apps/yarn dev-db/sqlite:3 || ( dev-lang/python:3.9 dev-lang/python:3.8 ) app-arch/unzip >=sys-apps/yarn-1.22.4 net-libs/nodejs virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=acct-user/overseerr acct-group/overseerr media-libs/vips net-libs/nodejs sys-apps/yarn dev-db/sqlite:3 || ( >=dev-lang/python-3.9.9-r1:3.9 >=dev-lang/python-3.8.12_p1-r1:3.8 ) app-arch/unzip >=sys-apps/yarn-1.22.4 net-libs/nodejs virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst setup unpack
 DEPEND=acct-user/overseerr acct-group/overseerr media-libs/vips net-libs/nodejs sys-apps/yarn dev-db/sqlite:3
 DESCRIPTION=a software application for managing requests for your media library
@@ -10,5 +10,5 @@ PROPERTIES=live
 RDEPEND=acct-user/overseerr acct-group/overseerr media-libs/vips net-libs/nodejs sys-apps/yarn dev-db/sqlite:3
 RESTRICT=strip mirror
 SLOT=0
-_eclasses_=yarn	1b2a3d75d24f9f2feae195e7202b0356	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	systemd	2736b403a83f194b59b767f3b344c2c1	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	python-utils-r1	a8b7938ade305f087865de7e52d079b5	python-any-r1	13f6d423c5c5bc519a9b552654cc745f	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_eclasses_=yarn	1b2a3d75d24f9f2feae195e7202b0356	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	systemd	2736b403a83f194b59b767f3b344c2c1	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	python-utils-r1	b601c48fe339b4c9bc03ffe4f25283e0	python-any-r1	13f6d423c5c5bc519a9b552654cc745f	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
 _md5_=005189bb10f87f858ffe9630097bcb8a
