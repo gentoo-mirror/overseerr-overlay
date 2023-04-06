@@ -13,7 +13,7 @@ if [[ ${PV} == *9999 ]]; then
 else
 	EYARN_LOCK=()
 	yarn_set_globals
-	KEYWORDS="~amd64 ~x86"
+	KEYWORDS="~amd64"
 	SRC_URI="https://github.com/sct/overseerr/archive/v${PV}.tar.gz -> ${P}.tar.gz
 		${EYARN_LOCK_SRC_URI}"
 fi
@@ -46,6 +46,7 @@ src_unpack() {
 src_compile() {
 	export npm_config_sqlite=${get_libdir}
 	export npm_config_build_from_source=true
+	export CYPRESS_INSTALL_BINARY=0
 	if [[ ${PV} == *9999 ]]; then
 		export COMMIT_TAG=`git rev-parse HEAD`
 		echo "{\"commitTag\": \"${COMMIT_TAG}\"}" > committag.json
@@ -66,7 +67,6 @@ src_install() {
 	doins -r public
 	doins babel.config.js
 	doins next.config.js
-	doins ormconfig.js
 	doins overseerr-api.yml
 	doins package.json
 	doins postcss.config.js
