@@ -1,4 +1,3 @@
 acct-group/overseerr 0: Overseerr group
 acct-user/overseerr 0: user for overseerr
 media-libs/vips 8.12.2 8.14.1: VIPS Image Processing Library
-www-apps/overseerr 1.26.1 1.27.0 1.28.0 1.29.1 9999: a software application for managing requests for your media library
