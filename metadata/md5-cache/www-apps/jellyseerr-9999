@@ -1,0 +1,14 @@
+BDEPEND=acct-user/jellyseerr acct-group/jellyseerr media-libs/vips net-libs/nodejs sys-apps/yarn dev-db/sqlite:3 || ( dev-lang/python:3.11 dev-lang/python:3.10 ) app-arch/unzip >=sys-apps/yarn-1.22.4 net-libs/nodejs virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=acct-user/jellyseerr acct-group/jellyseerr media-libs/vips net-libs/nodejs sys-apps/yarn dev-db/sqlite:3
+DESCRIPTION=a software application for managing requests for your media library that support Jellyfin and Emby
+EAPI=8
+HOMEPAGE=https://github.com/Fallenbagel/jellyseerr
+INHERIT=yarn systemd python-any-r1 git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=acct-user/jellyseerr acct-group/jellyseerr media-libs/vips net-libs/nodejs sys-apps/yarn dev-db/sqlite:3
+RESTRICT=mirror strip
+SLOT=0
+_eclasses_=yarn	5cac641740c39368f64be2d7cc0de4d5	toolchain-funcs	862d337d98edb576796827be2c6b11ca	multilib	c19072c3cd7ac5cb21de013f7e9832e0	systemd	5f4bb0758df2e483babf68cd517078ca	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	python-utils-r1	12aa0037eb004139215ff04894d52b28	python-any-r1	f5169813d1619761b459800587005fd2	git-r3	2358a7b20091609e24bd3a83b3ac5991
+_md5_=efbf374fa44a0363fd9863142378228d

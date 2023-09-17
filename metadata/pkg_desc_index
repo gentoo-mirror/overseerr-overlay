@@ -1,4 +1,7 @@
+acct-group/jellyseerr 0: Jellyseerr group
 acct-group/overseerr 0: Overseerr group
+acct-user/jellyseerr 0: user for jellyseerr
 acct-user/overseerr 0: user for overseerr
 media-libs/vips 8.12.2 8.14.1 8.14.2: VIPS Image Processing Library
+www-apps/jellyseerr 9999: a software application for managing requests for your media library that support Jellyfin and Emby
 www-apps/overseerr 1.32.5 9999: a software application for managing requests for your media library
